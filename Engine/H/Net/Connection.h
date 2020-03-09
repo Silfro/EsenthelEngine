@@ -132,7 +132,7 @@ struct ConnectionServer // connection server managing multiple client connection
   ~ConnectionServer() {del();}
    ConnectionServer();
 
-private:
+protected:
    Socket _server;
 };
 /******************************************************************************/
